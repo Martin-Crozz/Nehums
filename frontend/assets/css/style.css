@@ -683,6 +683,10 @@ button.slick-prev {
 
 /* Parallax Ends */
 /* Events */
+#events .title a {
+    font-size: 1.7rem;
+}
+
 #events .location {
     color: #9c9c9c;
 }
@@ -748,7 +752,6 @@ button.slick-prev {
     font-size: 5px;
 }
 
-
 #blog-wrapper .blog-content:hover .image img {
     filter: brightness(1);
     transition: .5s;
@@ -756,7 +759,6 @@ button.slick-prev {
 
 #blog-wrapper .blog-content:hover .image {
     filter: blur(1px);
-
 }
 
 #blog-wrapper .blog-content .image img {
@@ -835,7 +837,6 @@ button.slick-prev {
 #footer-wrapper a {
     text-decoration: none;
     display: flex;
-
     align-items: center;
     font-size: 15px;
     color: white;
