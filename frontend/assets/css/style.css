@@ -662,7 +662,7 @@ button.slick-prev {
     background-repeat: no-repeat;
     min-height: 70vh;
     max-height: 70vh;
-    background-image: url(http://demo.kevthemes.com/hugs/wp-content/uploads/2016/07/img-cover-4.jpg?id=1424);
+    background-image: url(../images/banner/banner.jpg);
 }
 
 .discription2 {
@@ -2047,7 +2047,11 @@ table .cart-image {
     background-repeat: no-repeat;
     min-height: 40vh;
     max-height: 40vh;
-    background-image: url(http://demo.kevthemes.com/hugs/wp-content/uploads/2016/07/img-cover-4.jpg?id=1424);
+    background-image: url(../images/banner/banner.jpg);
+}
+
+#parallax-newsletter .subscribe-wrapper .subscribe-form input::placeholder {
+    color: white;
 }
 
 #parallax-newsletter .subscribe-wrapper .subscribe-form input {
