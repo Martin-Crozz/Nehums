@@ -704,7 +704,7 @@ button.slick-prev {
 }
 
 .btn-wrapper a:hover {
-    color: white;
+    color: white !important;
 }
 
 /* Events Ends */
@@ -841,6 +841,7 @@ button.slick-prev {
 /* Blog Page Ends */
 
 /* Blog Ends */
+
 /* Popup Search Modal */
 .modal {
     border: 0;
@@ -1980,6 +1981,8 @@ table .cart-image {
     margin-bottom: -7px;
 }
 
+#form-info
+
 /* Contact Us Ends */
 /* About Us  */
 #about-us-wrapper h2 {
@@ -2028,7 +2031,7 @@ table .cart-image {
 }
 
 #newsletter .subscribe-wrapper .subscribe-form button {
-    background: #223729;
+    background: #a3d921;
     border: none;
     border-radius: 30px;
     color: white;
@@ -2070,7 +2073,7 @@ table .cart-image {
 }
 
 #parallax-newsletter .subscribe-wrapper .subscribe-form button {
-    background: #223729;
+    background: #a3d921;
     border: none;
     border-radius: 30px;
     color: white;
@@ -2261,7 +2264,7 @@ table .cart-image {
 #login-register-wrapper .FormLeft h1 {
     font-size: 40px;
     text-transform: uppercase;
-    color: var(--third-color);
+    color: var(--main-color);
 }
 
 #login-register-wrapper .FormLeft input::placeholder {
