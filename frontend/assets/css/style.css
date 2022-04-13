@@ -236,9 +236,9 @@ sup {
     left: 0;
 }
 
-.mobile-profile-nav {
-    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
-}
+/* .mobile-profile-nav {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+} */
 
 #profilemobilenav .modal-dialog {
     position: fixed;
@@ -689,6 +689,12 @@ button.slick-prev {
 
 #events .location {
     color: #9c9c9c;
+}
+
+#events .events-image {
+    max-height: 320px;
+    min-height: 320px;
+    width: 100%;
 }
 
 #events .title .date {
@@ -1996,6 +2002,12 @@ table .cart-image {
     transform: rotate(2deg) scale(1.1);
 }
 
+#about-us-wrapper .founder img {
+    max-height: 500px;
+    min-height: 500px;
+
+}
+
 #about-us-wrapper .about-us-image img {
     max-height: 300px;
     min-height: 300px;
@@ -2010,6 +2022,10 @@ table .cart-image {
 
 #about-us-wrapper .about-us-image {
     overflow: hidden;
+}
+
+.about-us-image-discription .title {
+    color: var(--main-color);
 }
 
 /* About Us Ends */
@@ -2305,7 +2321,171 @@ table .cart-image {
 }
 
 /* Login Register Ends */
+/* Program */
+#programs-wrapper .card {
+    transform: scale(1.0);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    border-radius: 10px;
+}
 
+#programs-wrapper .card .card-head img {
+    border-radius: 10px 10px 0px 0px;
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+#programs-wrapper .card .card-body {
+    background-color: #f6f6f64a;
+}
+
+#programs-wrapper .card .card-body h5 {
+    color: var(--main-color);
+    max-height: 28px;
+    min-height: 28px;
+    overflow: hidden;
+}
+
+
+
+#programs-wrapper .card:hover {
+    transform: scale(1.03);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    box-shadow: 0px 0px 10px 8px #caceca63;
+    background-color: white;
+}
+
+/* Program Ends */
+/* Our Team  */
+#our-team-wrapper .team-block {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    background: #f7f7f7;
+    position: relative;
+    z-index: 33;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius: 5px;
+}
+
+#our-team-wrapper .team-block:hover {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    transform: translateY(-5px);
+
+
+    cursor: pointer;
+}
+
+#our-team-wrapper .team-block:hover .team-img {
+    transform: scale(1.2);
+}
+
+#our-team-wrapper .team-img {
+    transform: scale(1);
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+
+#our-team-wrapper .team-img img {
+    max-height: 295px;
+    min-height: 295px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#our-team-wrapper .team-content {
+    overflow: hidden;
+    z-index: 33;
+    position: relative;
+    background: #f7f7f7;
+}
+
+#our-team-wrapper .team-content span {
+    text-decoration: none;
+    color: var(--red);
+}
+
+#our-team-wrapper .team-content .name {
+    font-weight: 600;
+}
+
+/* Our Team Ends */
+/* Job Vacancy */
+#vacancy-internship .job-image {
+    max-height: 320px;
+    min-height: 320px;
+    width: 100%;
+}
+
+#vacancy-internship .location {
+    color: #9c9c9c;
+}
+
+
+#vacancy-internship .title a {
+    font-size: 1.7rem;
+}
+
+#vacancy-internship form {
+    box-shadow: rgb(0 0 0 / 20%) -20px 36px 30px -7px;
+    transition: all .5s;
+    border-radius: 8px;
+}
+
+#vacancy-internship form:hover {
+    box-shadow: rgb(0 0 0 / 20%) -60px -15px 60px -40px;
+    transition: all .5s;
+    border-radius: 8px;
+}
+
+/* Job Vacancy Ends */
+/* Volunteer Internship */
+.volunteer-us-image img {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Volunteer Internship */
+
+/* Lightbox Gallery */
+
+#lightgallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lightgallery a {
+    display: inline-block;
+}
+
+#lightgallery li {
+    width: 22%;
+    margin-bottom: 40px;
+}
+
+#lightgallery li img {
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Lightbox Gallery Ends */
 /* Vendor Listing */
 #vendor-listing-wrapper a {
     text-decoration: none;

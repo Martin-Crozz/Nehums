@@ -10,7 +10,7 @@ function myFunction() {
     preloader.style.display = 'none';
 };
 // Navigation Js Scroll Starts
-$(window).scroll(function() {
+$(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 50) {
         $(".navigation-wrap").css("border-bottom", "0.5px solid #FF6A00");
@@ -18,7 +18,7 @@ $(window).scroll(function() {
         $(".navigation-wrap").css("border-bottom", "unset");
     }
 }); // Navigation Js Scroll Ends
-$(document).ready(function() {
+$(document).ready(function () {
     // product Gallery and Zoom
     // activation carousel plugin
     var galleryThumbs = new Swiper('.gallery-thumbs', {
@@ -129,7 +129,7 @@ $("#range-slider").slider({
     labelledby: null,
     // Defines a range array that you want to highlight
     rangeHighlights: []
-        // Bootstrap Range Slider Js End
+    // Bootstrap Range Slider Js End
 });
 // Bootstrap Range Slider Js Ends
 // Brand Slick Slider Starts
@@ -142,7 +142,7 @@ $('.our_brand').slick({
 });
 // Brand Slick Slider Ends
 // Brand Slick Slider On Modal Popup
-$(window).on('shown.bs.modal', function() {
+$(window).on('shown.bs.modal', function () {
     $('.our_brand-2').slick({
         infinite: true,
         slidesToShow: 1,
@@ -158,7 +158,7 @@ $('.slick-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    speed:300,
+    speed: 300,
     arrows: false,
     // centerMode: true,
     autoplay: true,
@@ -170,7 +170,7 @@ $('.testimonial-slider').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed:300,
+    speed: 300,
     arrows: false,
     // centerMode: true,
     autoplay: true,
@@ -275,7 +275,7 @@ $('.slick-slider-listing').slick({
                 slidesToScroll: 1,
                 dots: true
             }
-        },   {
+        }, {
             breakpoint: 325,
             settings: {
                 slidesToShow: 1,
@@ -287,15 +287,15 @@ $('.slick-slider-listing').slick({
 });
 // Product Listing Slick Slider Ends
 // Product Detail Image Size choose Js
-$(document).ready(function() {
-    $('.imagesize').click(function() {
+$(document).ready(function () {
+    $('.imagesize').click(function () {
         if ($('.imagesize-active').length) {
             $('.imagesize-active').not($(this)).removeClass('imagesize-active').addClass('image-size');
         }
         $(this).removeClass('image-size').addClass('imagesize-active');
     });
     // Toastr
-    $('.toastr-click').click(function() {
+    $('.toastr-click').click(function () {
         console.log('hwllo');
         toastr.success('Successfully Product added');
         // $('.toastr-click').prop('disabled', true);
@@ -306,3 +306,15 @@ $(document).ready(function() {
 function successMsg() {
     toastr.success('Successfully Product added');
 }
+
+
+// Lightbox Gallery
+$(document).ready(() => {
+    $("#lightgallery").lightGallery({
+        pager: true
+    });
+});
+lightGallery(document.getElementById("lightgallery"), {
+    speed: 500,
+    plugins: [lgVideo]
+});
