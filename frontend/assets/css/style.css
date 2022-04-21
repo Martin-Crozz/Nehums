@@ -2708,4 +2708,21 @@ table .cart-image {
 
 }
 
+
 /* Team Detail Ends */
+/* Admission Procedure */
+#admission-procedure .card-heading {
+    background-color: #056526;
+
+}
+
+#admission-procedure .card-heading button {
+    color: white;
+    text-decoration: none;
+}
+
+/* Admission Procedure Ends */
+#donation {
+    /* border-bottom: 2px solid #a3d921; */
+    background-color: #002118;
+}
