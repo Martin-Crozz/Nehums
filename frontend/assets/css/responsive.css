@@ -154,9 +154,30 @@
     }
 
     /* Popup Cart Ends */
+
+    #lightgallery div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .lg-outer .lg-item,
+    .lg-outer .lg-img-wrap {
+        left: 0;
+    }
+
 }
 
 @media (max-width: 450px) {
+
+    a,
+    .d-flex,
+    div {
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
     #vendor-profile-wrapper .profile-side-detail-edit {
         position: relative;
         transform: unset;
@@ -167,6 +188,58 @@
     .sidebarcus:nth-child(1) {
         position: absolute;
         transform: translateY(-175px);
+    }
+
+    #banner-categories-wrapper .description {
+        width: 100%;
+    }
+
+    #banner-categories-wrapper .description h1 {
+        font-size: 1.2rem;
+    }
+
+    .discription2,
+    .discription4 {
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .heading h2 a {
+        font-size: 1.6rem;
+        font-weight: bold;
+
+    }
+
+    #about-us-wrapper .founder img {
+        max-height: 300px;
+        min-height: 300px;
+    }
+
+    #newsletter .subscribe-wrapper .subscribe-form button {
+        margin: auto;
+    }
+
+    #parallax-newsletter .subscribe-wrapper .subscribe-form input {
+        width: 100%;
+    }
+
+    #newsletter .subscribe-wrapper .subscribe-form input {
+        width: 100%;
+        padding: auto;
+    }
+
+    .anchor-btn {
+        font-size: 0.6rem;
+    }
+
+    #admission-procedure .card-heading {
+
+        width: 100%;
     }
 }
 
